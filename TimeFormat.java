@@ -10,6 +10,10 @@ public class TimeFormat {
         if (hoursNum == 24){
             hoursNum = 0;
             }
+        
+        if (hoursNum == 12){
+            m = "PM";
+            }
 
         if (hoursNum >= 13){
             m = "PM";

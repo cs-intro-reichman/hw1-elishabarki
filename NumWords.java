@@ -7,7 +7,7 @@ public class NumWords {
         n -= ones;
         int tens = n%100;
         n -= tens;
-        int hundreds = n%1000;
+        int hundreds = n/100;
 
         System.out.println((hundreds/100)+" hundreds, "+(tens/10)+" tens, and "+ones+" ones.");
     }
